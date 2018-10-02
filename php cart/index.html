@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Php Shopping Cart
+</title>
+<script type = "text/javascript" src = "resource/jquery.js"></script>
+<script type = "text/javascript" src = "resource/jquery.min.js"></script>
+<script type = "text/javascript" src = "resource/jquery-ui.min.js"></script>
+<script type = "text/javascript" src = "resource/resource/jquery-ui.js"></script>
+<script type = "text/javascript" src = "resource/bootstrap.min.js"></script>
+<script type = "text/javascript" src = "resource/bootstrap.js"></script>
+<script type = "text/javascript">
+$(document).ready(function(){
+	$('#add-item').click(function(){
+	$('#add-item-form').show();
+	});
+});
+</script>
+
+<link rel = "stylesheet" href = "resource/bootstrap.css">
+<link rel = "stylesheet" href = "resource/bootstrap.min.css">
+<link rel = "stylesheet" href = "resource/bootstrap-theme.min.css">
+<link rel = "stylesheet" href = "resource/font-awesome.min.css">
+<link rel = "stylesheet" href = "resource/font-awesome.css">
+
+
+<style type = "text/css">
+#body{
+	height: 30px;
+}
+#add-item{
+	margin-top: 12px;
+	color: #fff333;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+}
+#add-item-form{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+}
+</style>
+</head>
+<body class = "container">
+<div>
+<div id = "header">
+	<br>
+<center style = "font-size: 28px;">PHP CART</center>
+</div>
+<div id = "body">
+
+<div >
+	<a id = "add-item" href = "#">Click Here To Add An Item</a>
+</div>
+<br>
+<div id = "add-item-form">
+<input type = "text" value = "name">
+<!--a picture is meant to come in here-->
+<br>
+<input type = "text" value = "price">
+<br>
+<button "add-item-submit" >add item</button>
+<br>
+<a id = "back" href = "#" style = "font-weight: 800; font-size: 19px;color: #fff333; text-decoration: none;">^</a>
+</div>
+<script type = "text/javascript">
+	$('#add-item-form').hide();
+	$('#back').click(function(){
+	$('#add-item-form').hide();
+	});
+</script>
+
+</div>
+</div>
+</body>
+</html>

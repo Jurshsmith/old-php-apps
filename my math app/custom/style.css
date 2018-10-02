@@ -1,0 +1,78 @@
+#header-image{
+	margin-top: 10px;
+	width: 100px;
+}
+#header-font{
+	font-family: sans-serif;
+	font-size: 10px;
+	margin-top: 4px;
+}
+#wrap{
+borde: 1px solid  #ef5a11;
+}
+#ibank-badge{
+	background-color: #dfdfdf;
+	height: auto;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: sans-serif;
+	padding: 20px;
+}
+#wrap{
+	height: auto;
+}
+#footer{
+
+	padding : 15px;
+	font-size: 10px;
+	height: auto;
+	background-color: #ef5a11;
+}
+.ad{
+	height: auto;
+	background-color: #e8e8e8;
+	border: 2px solid #dfdfdf;
+	border-radius: 12px;
+	margin-bottom: 20px;
+	width: 85%;
+	padding: 5px;
+}
+.ad img{
+	float: left;
+	
+}
+.ad p{
+	color: #7b7878;padding : 15px;position: relative;left: -16px;
+}
+.login-form{
+	width: 80%;
+	margin-top: 5px;
+}
+.j-btn {
+	background-color: brown;
+	color: white;
+}
+.j-btn:hover{
+	color: white;
+}
+.j-custom-navbar{
+	background-color: grey;
+	height: 50px;
+	width: 100%;
+	
+
+}
+.j-wrap{
+	height: auto;
+	margin-left: 10px;
+}
+.j-list{
+
+	padding-left: 30px;
+	display: inline;
+	color: #ffffff;
+}
+	
+.marginalize{
+	margin-top: 40px;
+}
